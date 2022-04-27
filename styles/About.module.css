@@ -1,13 +1,16 @@
 .container {
-  margin: 4rem 7.5rem;
+  max-width: 1200px;
+  margin: 4rem auto;
 }
 
 .title {
   font-size: 1.5rem;
+  margin-left: 2rem;
   color: var(--dim-white);
 }
 
 .content {
-  padding: 1rem 0;
+  margin-left: 2rem;
+  padding: 0.5rem 0;
   color: var(--dim-white);
 }
