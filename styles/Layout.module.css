@@ -1,0 +1,65 @@
+.main {
+  height: 100vh;
+  margin: 2rem;
+}
+
+.nav {
+  width: 100%;
+}
+.nav * {
+  float: right;
+  padding: 0 0.5rem;
+}
+.nav * :hover {
+  /* color: var(--pink); */
+  color: var(--white);
+}
+.ul :first-child a {
+  color: var(--pink);
+}
+.ul :first-child a:hover {
+  text-shadow: 0.1rem 0.2rem 10px var(--white);
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.header * {
+  display: inline;
+  color: var(--dim-white);
+  font-size: 1.2rem;
+}
+
+.name {
+  color: var(--white);
+  font-size: 1.8rem;
+  padding-left: 1rem;
+}
+
+.border {
+  border-top: 1px solid var(--dim-white);
+  margin-top: 1rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 2rem;
+  height: 4rem;
+  width: 4rem;
+  background: var(--white);
+  border-radius: 50%;
+  box-shadow: 0.1rem 0.2rem 1rem #f44174;
+}
+.contact:hover {
+  cursor: pointer;
+  transform: translate(0, -0.5rem);
+  box-shadow: 0.1rem 0.7rem 1rem #f44174;
+}
+.mail {
+  max-height: 2.5rem;
+  fill: var(--purple);
+}

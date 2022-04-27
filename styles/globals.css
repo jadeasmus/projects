@@ -1,16 +1,36 @@
 html,
 body {
+  /* variables */
+  --white: whitesmoke;
+  --dim-white: hsl(0, 0%, 80%);
+  --blue: hsl(200deg, 90%, 20%);
+  --orange: #f09056;
+  --green: #d0f0c0;
+  --pink: #f44174;
+  --purple: hsl(300, 100%, 8%);
+  /* other */
+  background: var(--purple);
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
+/* -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif */
+
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+p {
+  margin: 0;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+textarea {
+  outline: none;
 }

@@ -1,0 +1,67 @@
+.container {
+  max-width: 1200px;
+  margin: 4rem auto;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: var(--dim-white);
+  margin-left: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  max-width: 32rem;
+  justify-content: center;
+  align-items: center;
+  background: whitesmoke;
+  border-radius: 0.3rem;
+  padding: 2rem 1rem 3rem;
+  margin: 2rem;
+}
+.img {
+  height: 15rem;
+  width: 30rem;
+  border-radius: 0.5rem;
+}
+.description {
+  color: var(--blue);
+  align-text: left;
+  line-height: 1.5rem;
+  padding-top: 1rem;
+  margin-left: 2rem;
+  width: 100%;
+  border-radius: 0.2rem;
+}
+.github_logo {
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  cursor: pointer;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+.github_logo:hover {
+  height: 2.1rem;
+  width: 2.1rem;
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1;
+  }
+}
+
+/* @media (max-width: 1000px) {
+  .gridContainer {
+    display: block;
+  }
+} */
