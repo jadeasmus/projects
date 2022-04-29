@@ -7,8 +7,8 @@ export default function about() {
       <h1 className={styles.title}>About</h1>
       <p className={styles.content}>Hey there 👋</p>
       <p className={styles.content}>
-        I like building things I am passionate about, and currently that is
-        Essay.
+        My name is Jade and I love building useful things. Check out my projects
+        or send me a message!
       </p>
     </div>
   );
